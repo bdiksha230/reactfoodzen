@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root{
+    --primary-color: #f6412d;
+    --secondary-color: #f5ad12;
+    
+  }
+  
+  @font-face {
+    font-family: heading-font;
+    src: url(../public/assets/font/Vienna-Font/Vienna_Font-Regular.woff);
+  }
+  @font-face {
+    font-family: body-font;
+    src: url(../public/assets/font/Montserrat/Montserrat-Medium.ttf);
+  }
+  @font-face {
+    font-family: logo-font;
+    src: url(../public/assets/font/bravecho/Bravecho.ttf);
+  }
+  
+
+  html, body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: body-font;
+  }
+  /* common css */
+  section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+  }
+ img{
+  width: 100%;
+ }
+  .shopnow_btn_wrap{
+    margin-top: 50px;
+    text-align: center;
+  }
+  .shopnow_btn_wrap .shopnow_btn{
+    background-color: var(--primary-color);
+    display: inline-block;
+    padding: 7px 50px;
+    color: #ffffff;
+    font-size: 22px; 
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #b15709;
+    text-align: center; 
+    text-transform: capitalize;
+  }
+  .shopnow_btn_wrap .shopnow_btn:hover{
+    background-color: var(--secondary-color);
+    color: #ffffff;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family: heading-font;
+  }
+  .heading_wrap{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 80px;
+  }
+  .heading_wrap h1{
+    font-size: 54px;
+    text-transform: capitalize;
+  }
+  /* header */
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: transparent;
+    /* box-shadow: 0px 1px 7px #c3c1c1; */
+  }
+.navbar-nav{
+    margin-left: 60px;
+    transition: 0s ease-out;
+  }
+  /* sticky header */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: var(--secondary-color);
+  padding: 0px 10px;
+}
+/* sticky header end */
+  header .logo{
+    font-size: 38px;
+    font-family: logo-font !important;
+    color: #fff !important;
+  }
+  header .logo:hover{
+    color: #fff;
+  }
+  header .nav-item .nav-link{
+    font-size: 18px;
+    font-family: body-font;
+    color: #fff;
+  }
+  header .nav-item .nav-link.active{
+    color: #fff;
+  }
+  header .btn span{
+    font-size: 22px;
+    color: #fff;
+  }
+
+  .menu_heading{
+    color: #fff;
+    background-color: var(--secondary-color);
+    padding: 8px 40px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .menu_name_wrap{
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    transform: translate(-50%, 0px);
+  }
+  .food__category_section{
+    margin: 0% 5% 3% 5%;
+    
+  }
+  .food__category_section .swiper{
+    padding: 0px 50px;
+    overflow-x: hidden;
+  }
+  .food__category_section .swiper  .swiper-wrapper{
+    /* overflow-x: hidden; */
+  }
+  
+  .food__category_section .swiper  .swiper-wrapper .foodcategory img{
+    width: 70%;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+  }
+  .food__category_section .swiper  .swiper-wrapper .foodcategory .caption{
+    text-align: center;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 20px 0px;
+
+  }
+  .food__category_section .swiper  .swiper-button-prev:after,   
+  .food__category_section .swiper  .swiper-button-next:after { 
+    background: #000;
+    color: #fff;
+    font-size: 22px !important;
+    padding: 20px 10px;
+    opacity: 1;
+  }
+  .food__category_section .swiper .swiper-button-prev.swiper-button-disabled,  
+   .food__category_section .swiper .swiper-button-next.swiper-button-disabled {
+    opacity: 1;
+  }
+
+.offer_img img{
+  box-shadow: 1px 1px 5px #b59393;
+  margin-bottom: 30px;
+}
+  /* product page */
+  .product_section{
+    background-image: url(../img/bg.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .product_section .product{
+    text-align: center;
+  }
+  .product_section .product{
+    padding: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 13px 1px #9f7676;
+    margin-bottom: 50px;
+    background: #fff;
+  }
+  .product_section .product .product_img{
+    width: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  .product_section .product .product__title{
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+    display: block;
+    line-height: 100%;
+    margin-bottom: 10px;
+  }
+  .product_section .product .price{
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0;
+    line-height: 100%; 
+  }
+  .product_section .product .product_btn{
+    background-color: var(--primary-color);
+    display: block;
+    width: 60%;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 6px 0px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #b15709;
+    text-align: center;
+    margin: auto;
+  }
+  .product_section .product  .product_title_wrap{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+ .offer_section{
+    background-image: url(../img/bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+ }
+  .offer_section_banner img{
+    width: 100%;
+  }
+
+
+  /* shop page */
+
+  .shop__page{
+    padding: 5% 5%;
+  }
+  .form__section{
+    /* background-color: #fdd5be63; */
+    padding: 5% 25%;
+  }
+  /* category */
+  .categories{
+ 
+    padding: 20px 20px; 
+  }
+  .categories .category__btn{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    background-color: #ffffff;
+    margin-bottom: 15px; 
+    width: 100%;
+    text-transform: capitalize;
+    border: 1px solid #f1a269; 
+  }
+  .categories .category__btn:hover{
+    border: 1px solid #f1a269;
+    background-color: var(--primary-color);
+    color: #fff; 
+  }
+  .border_left{
+    box-shadow: 4px 1px 6px #dfdede;
+    border-radius: 10px;
+  }
+  
+  .pagination{
+    align-items: center;
+  }
+  .pagination .page-link { 
+    color: #fd730d;
+
+  }
+  .pagination .page-link div button{
+    background-color: #ffe3d3f5 !important;
+  }
+
+
+  /* footer */
+  footer{
+    background-color: var(--secondary-color);
+    padding: 10px 10px;
+  }
+  footer p{
+    text-align: center;
+    font-size: 13px;
+    color: #070707;
+  }
+
+
+
+  /* responsive */
+  @media screen and (min-device-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+      display: flex!important;
+      flex-basis: auto;
+      justify-content: space-between;
+    }
+  }
+  @media screen and (max-device-width: 991px) {
+    header .navbar-toggler{
+      z-index: 10;
+    }
+    header .navbar-collapse{
+      background: #fff;
+      width: 30% !important;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 0;
+      color: #000; 
+    }
+    header .nav-item .nav-link, header .nav-item .nav-link.active {
+      color: #060606;
+    } 
+    header .navbar-nav{
+      padding-top: 70%;
+      padding-left: 20px;
+      margin-left: 0;
+    }
+    .food__category_section .swiper-button-prev, .food__category_section .swiper-button-next{
+      display: none;
+    }
+    
+  }
+  @media screen and (max-device-width: 767px) {
+    .product_section .product .product_btn { 
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-device-width: 574px) {
+    section {
+      padding-top: 50px;
+      padding-bottom: 30px; 
+    }
+    .heading_wrap h1 {
+      font-size: 36px;
+    }
+    .heading_wrap { 
+      margin-bottom: 42px;
+    }
+    .food__category_section .swiper {
+      padding: 0px 0px; 
+    }
+    .food__category_section .swiper .swiper-wrapper .foodcategory .caption { 
+      font-size: 16px;
+    }
+    .product_section .product {
+      padding: 10px;
+    }
+    .product_section .product .product__title {
+      font-size: 16px;
+    }
+    
+  }

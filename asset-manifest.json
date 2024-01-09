@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reactfoodzen/static/css/main.64b5b7a1.css",
+    "main.js": "/reactfoodzen/static/js/main.a6319e87.js",
+    "static/js/787.7d3466a4.chunk.js": "/reactfoodzen/static/js/787.7d3466a4.chunk.js",
+    "index.html": "/reactfoodzen/index.html",
+    "main.64b5b7a1.css.map": "/reactfoodzen/static/css/main.64b5b7a1.css.map",
+    "main.a6319e87.js.map": "/reactfoodzen/static/js/main.a6319e87.js.map",
+    "787.7d3466a4.chunk.js.map": "/reactfoodzen/static/js/787.7d3466a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64b5b7a1.css",
+    "static/js/main.a6319e87.js"
+  ]
+}
