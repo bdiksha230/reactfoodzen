@@ -18,7 +18,7 @@ const Home = () => {
       </section>
       <section className="food__category_section pb-0">
         <div className="menu_name_wrap">
-          <span className="menu_heading">menus</span>
+          <span className="menu_heading">button</span>
         </div>
         <div className="container-fluid">
           <FoodCategoriesData />
