@@ -1,6 +1,5 @@
 {
   "name": "foodzen",
-  "homepage": "http://bdiksha230.com/reactfoodzen/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
